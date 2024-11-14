@@ -1,10 +1,12 @@
 import React from 'react'
 import LogoImage from '@/public/images/Logo.png'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Logo = () => {
   return (
-    <div className='flex gap-1 items-center text-lg font-medium tracking-tighter text-black'>
+    <Link href={"/"}>
+      <div className='flex gap-1 items-center text-lg font-medium tracking-tighter text-black'>
         <div>
             <Image
                 src={LogoImage}
@@ -14,7 +16,8 @@ const Logo = () => {
              />
         </div>
         <div>SnappaCV</div>
-    </div>
+      </div>
+    </Link>
   )
 }
 
