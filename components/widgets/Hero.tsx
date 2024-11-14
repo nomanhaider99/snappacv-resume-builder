@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className='md:px-10 px-4 w-full flex flex-col gap-5 items-center pt-24 pb-36'>
         {/* Upper */}
-        <div className='flex justify-between items-center px-5 gap-10'>
+        <div className='flex justify-between items-center md:px-5 px-0 gap-10'>
             {/* Left shape */}
             <div>
                 <Image
