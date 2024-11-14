@@ -10,7 +10,7 @@ const Hero = () => {
         {/* Upper */}
         <div className='flex justify-between items-center md:px-5 px-0 gap-10'>
             {/* Left shape */}
-            <div>
+            <div className='hidden md:block'>
                 <Image
                     src={Vector1}
                     alt=''
@@ -26,7 +26,7 @@ const Hero = () => {
                 <div className='text-lg text-zinc-800 text-center tracking-tighter leading-6 md:w-1/2 w-full'>Build a resume that stands out with ease. Our tool helps you create a professional, personalized resume, highlighting your skills and achievements to make a lasting impression.</div>
             </div>
             {/* Right shape */}
-            <div>
+            <div className='hidden md:block'>
                 <Image
                     src={Vector2}
                     alt=''
