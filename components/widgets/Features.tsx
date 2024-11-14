@@ -4,7 +4,7 @@ import FeatureCard from '../ui/FeatureCard'
 
 const Features = () => {
   return (
-    <div className='w-full px-14 py-10 flex flex-col gap-14'>
+    <div className='w-full md:px-14 px-4 py-10 flex flex-col gap-14'>
         {/* Headings */}
         <div className='w-full flex flex-col md:flex-row justify-between items-center'>
             {/* Right */}

@@ -21,7 +21,7 @@ const Hero = () => {
             {/* Texts */}
             <div className='flex flex-col items-center gap-4'>
                 {/* Heading */}
-                <div className='uppercase text-5xl text-center leading-none font-extrabold text-black tracking-tighter'>The Only Resume Bulder that increase your job accuration</div>
+                <div className='uppercase md:text-5xl text-3xl text-center leading-none font-extrabold text-black tracking-tighter'>The Only Resume Bulder that increase your job accuration</div>
                 {/* para */}
                 <div className='text-lg text-zinc-800 text-center tracking-tighter leading-6 md:w-1/2 w-full'>Build a resume that stands out with ease. Our tool helps you create a professional, personalized resume, highlighting your skills and achievements to make a lasting impression.</div>
             </div>
